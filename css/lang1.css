@@ -1,0 +1,29 @@
+.p1{ background-color: blueviolet;
+    font-style: oblique;
+    font-weight: bold;
+    color: grey;
+    width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+   
+
+}
+.main{
+    background-color: red;
+display: flex; 
+-ms-flex-align: start;
+flex-direction:row;
+justify-content:space-evenly;
+height: 400px;
+align-items:center;
+
+
+
+
+}
+.p1:hover{background-color: rgb(212, 212, 190);}
+.main:hover{background-color: green;}
+.main .p1:hover{background-color: orange; transform: rotateX(180deg);
+}
