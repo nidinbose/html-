@@ -1,0 +1,18 @@
+.pumatopnav{
+    background-color: rgb(150, 123, 100);
+   height: 40px ;
+    margin:-10px;
+    color: white ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.font{
+    font-weight: 700;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: small;
+}
+.puma2nav{
+    background-color: aqua;
+    margin: 00px;
+}
